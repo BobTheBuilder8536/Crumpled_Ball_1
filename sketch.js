@@ -43,7 +43,7 @@ function draw() {
 }
 
 function launch(){
-	if(keyWentDown(DOWN_ARROW) || keyWentDown("s")){
+	if(keyWentDown(UP_ARROW) || keyWentDown("w")){
 		Body.applyForce(paper.body,paper.body.position,{x:75,y:-75});
 	}
 }
